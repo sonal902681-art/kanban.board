@@ -1,0 +1,40 @@
+.container {
+  padding: 20px;
+  font-family: Arial;
+}
+
+.inputBox {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 8px;
+  width: 200px;
+}
+
+button {
+  margin-left: 5px;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.board {
+  display: flex;
+  gap: 20px;
+}
+
+.column {
+  flex: 1;
+  background: #f4f4f4;
+  padding: 10px;
+  border-radius: 10px;
+  min-height: 300px;
+}
+
+.card {
+  background: white;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
